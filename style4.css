@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfdfd;
+}
+
+.about-section{
+    background: url(about.jpg) no-repeat;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #0000;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 19px;
+    color:black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+
+      
+    
+    #navbar ul{
+      display:flex;
+      margin: auto;
+    }
+    
+    #navbar ul li{
+      font-size: 22px;
+      font-weight: bold;
+      list-style: none;
+      
+    }
+    #navbar ul li a{
+      color:black;
+      text-decoration: none;
+      display:block;
+      padding: 10px 15px;
+      font-weight: bolder;
+      text-shadow:  4px 3px 5px  rgb(10, 10, 10);
+      
+      
+      
+      
+    
+    }
+    #navbar ul li a:hover{
+      background: white;
+      color: black;
+      cursor: pointer;
+    }
+    #logo{
+        margin:5px 7px;
+        display: flex;
+    
+    }
+    #logo h3{
+        margin-top: 2px;
+        padding:3px 5px;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-style: italic;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-shadow:2px 3px 3px black;
+        font-weight: bold;
+        
+    }
+    #logo img{
+        height:50px;
+        margin:3px ;
+      
+       
+    }
